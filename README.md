@@ -1,7 +1,5 @@
 # BeastMaster NPC
 
-- Latest build status with azerothcore: [![Build Status](https://travis-ci.org/azerothcore/mod-npc-beastmaster.svg?branch=master)](https://travis-ci.org/azerothcore/mod-npc-beastmaster)
-
 
 ## Important notes
 
