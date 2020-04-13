@@ -1,11 +1,6 @@
 # BeastMaster NPC
 
 
-## Important notes
-
-You have to use at least AzerothCore commit [3f0739f](https://github.com/azerothcore/azerothcore-wotlk/commit/3f0739f1c9a5289444ff9d62834b7ceb38879ba9).
-
-
 ## Description
 
 This module allows each class (even Warlocks and Death Knights) to use hunter pets by adding a special NPC. This NPC provides the following options:
@@ -36,7 +31,7 @@ Clone Git repository:
 
 ```
 cd <ACdir>
-git clone https://github.com/azerothcore/mod-npc-beastmaster.git modules/mod-npc-beastmaster
+git clone https://gitlab.com/opfesoft/mod-npc-beastmaster.git modules/mod-npc-beastmaster
 ```
 
 Import SQL automatically:
@@ -65,13 +60,11 @@ If you need to change the module configuration, go to your server configuration 
 
 ## Credits
 
-* [Stoabrogga](https://github.com/Stoabrogga): further development
+* Stoabrogga: further development
 * [Talamortis](https://github.com/talamortis): further development
 * [BarbzYHOOL](https://github.com/barbzyhool): support
 * [StygianTheBest](http://stygianthebest.github.io): original author (this module is based on v2017.09.03)
 
-AzerothCore: [repository](https://github.com/azerothcore) - [website](http://azerothcore.org/) - [discord chat community](https://discord.gg/PaqQRkd)
-
 
 ## License
-This code and content is released under the [GNU AGPL v3](https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3).
+This code and content is released under the [GNU AGPL v3](LICENSE.md).
