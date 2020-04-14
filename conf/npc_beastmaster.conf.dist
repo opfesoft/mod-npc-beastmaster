@@ -16,11 +16,11 @@ BeastMaster.HunterOnly = 1
 
 BeastMaster.MinLevel = 10
 
-# Hunters are required to have Beast Mastery to adopt exotic pets. (default: 0)
+# Hunters are required to have Beast Mastery to adopt exotic pets. (default: 1)
 
 BeastMaster.HunterBeastMasteryRequired = 1
 
-# Allow exotic pets for non-hunters (default: 1)
+# Allow exotic pets for non-hunters (default: 0)
 
 BeastMaster.AllowExotic = 0
 
