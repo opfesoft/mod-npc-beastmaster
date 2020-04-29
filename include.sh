@@ -2,8 +2,6 @@
 
 MOD_NPCBEASTMASTER_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )/" && pwd )"
 
-source $MOD_NPCBEASTMASTER_ROOT"/conf/conf.sh.dist"
-
-if [ -f $MOD_NPCBEASTMASTER_ROOT"/conf/conf.sh" ]; then
-    source $MOD_NPCBEASTMASTER_ROOT"/conf/conf.sh"
-fi
+DB_WORLD_CUSTOM_PATHS+=(
+        $MOD_NPCBEASTMASTER_ROOT"/data/sql/db-world/"
+)

@@ -49,7 +49,7 @@ bash apps/db_assembler/db_assembler.sh
 choose 4)
 ```
 cd <ACdir>
-mysql -P <DBport> -u <DPuser> --password=<DBpassword> world <env/dist/sql/world_custom.sql
+mysql -P <DBport> -u <DPuser> --password=<DBpassword> world <local/sql/world_custom.sql
 ```
 
 
