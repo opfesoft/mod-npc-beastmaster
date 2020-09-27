@@ -5,7 +5,7 @@ SET
 @Entry      := 601026,
 @Model      := 26314, -- Northrend Worgen White
 @Name       := "White Fang",
-@Title      := "BeastMaster",
+@Title      := "Beast Master",
 @Icon       := "Speak",
 @GossipMenu := 0,
 @MinLevel   := 80,
@@ -27,7 +27,7 @@ INSERT INTO creature_template (entry, modelid1, name, subname, IconName, gossip_
 
 -- NPC EQUIPPED
 DELETE FROM `creature_equip_template` WHERE `CreatureID`=@Entry AND `ID`=1;
-INSERT INTO `creature_equip_template` VALUES (@Entry, 1, 2196, 1906, 0, 18019); -- Haunch of Meat, Torch
+INSERT INTO `creature_equip_template` VALUES (@Entry, 1, 2196, 0, 0, 0); -- Haunch of Meat
 
 -- NPC TEXT
 DELETE FROM `npc_text` WHERE `ID`=@Entry;
