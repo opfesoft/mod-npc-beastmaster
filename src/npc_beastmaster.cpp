@@ -458,6 +458,15 @@ class BeastMaster_PlayerScript : public PlayerScript
             petType = HUNTER_PET;
         }
     }
+
+    void OnAfterActivateSpec(Player* player, uint8 /*spec*/)
+    {
+        if ((player->getClass() == CLASS_HUNTER && !BeastMasterHunterBeastMasteryRequired) || (player->getClass() != CLASS_HUNTER && BeastMasterAllowExotic))
+        {
+            player->addSpell(PET_SPELL_BEAST_MASTERY, SPEC_MASK_ALL, false);
+            player->AddAura(PET_SPELL_BEAST_MASTERY, player);
+        }
+    }
 };
 
 void AddBeastMasterScripts()
