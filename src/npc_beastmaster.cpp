@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2020+     Project "Sol" <https://gitlab.com/opfesoft/sol>, released under the GNU AGPLv3 license: https://gitlab.com/opfesoft/mod-npc-beastmaster/-/blob/master/LICENSE.md
+ * Copyright (C) 2018-2020 AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/mod-npc-beastmaster/blob/master/LICENSE.md
+ * Copyright (C) 2017      StygianTheBest <https://stygianthebest.github.io>, released under the GNU AGPLv3 license: https://github.com/StygianTheBest/AzerothCore-Content/blob/master/Modules/mod-npcbeastmaster/LICENSE.md
+*/
+
 #include "ScriptMgr.h"
 #include "Player.h"
 #include "Chat.h"

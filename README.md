@@ -30,41 +30,37 @@ As GM:
 Clone Git repository:
 
 ```
-cd <ACdir>
+cd <SolDir>
 git clone https://gitlab.com/opfesoft/mod-npc-beastmaster.git modules/mod-npc-beastmaster
 ```
 
-Import SQL automatically:
+Import SQL:
 ```
-cd <ACdir>
-bash apps/db_assembler/db_assembler.sh
-```
-choose 8)
-
-Import SQL manually:
-```
-cd <ACdir>
-bash apps/db_assembler/db_assembler.sh
-```
-choose 4)
-```
-cd <ACdir>
+cd <SolDir>
+bash bash/db_assembler.sh 4
 mysql -P <DBport> -u <DPuser> --password=<DBpassword> world <local/sql/world_custom.sql
+```
+
+Without DB Assembler:
+```
+cd <SolDir>
+mysql -P <DBport> -u <DPuser> --password=<DBpassword> world <modules/mod-npc-beastmaster/data/sql/db-world/npc_beastmaster.sql
 ```
 
 
 ## Edit module configuration (optional)
 
-If you need to change the module configuration, go to your server configuration folder (where your `worldserver` or `worldserver.exe` is), copy `npc_beastmaster.conf.dist` to `npc_beastmaster.conf` and edit that new file.
+If you need to change the module configuration, go to your server configuration folder (e.g. `sol-srv/etc`), copy `npc_beastmaster.conf.dist` to `npc_beastmaster.conf` and edit that new file.
 
 
 ## Credits
 
-* Stoabrogga: further development
+* [Stoabrogga](https://gitlab.com/Stoabrogga): further development
 * [Talamortis](https://github.com/talamortis): further development
 * [BarbzYHOOL](https://github.com/barbzyhool): support
-* [StygianTheBest](http://stygianthebest.github.io): original author (this module is based on v2017.09.03)
+* [StygianTheBest](https://stygianthebest.github.io): original author (this module is based on v2017.09.30)
 
 
 ## License
+
 This code and content is released under the [GNU AGPL v3](LICENSE.md).
