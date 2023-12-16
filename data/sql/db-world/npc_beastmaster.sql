@@ -26,7 +26,7 @@ INSERT INTO creature_template (entry, modelid1, name, subname, IconName, gossip_
 
 -- NPC EQUIPPED
 DELETE FROM `creature_equip_template` WHERE `CreatureID`=@Entry AND `ID`=1;
-INSERT INTO `creature_equip_template` VALUES (@Entry, 1, 2196, 0, 0, 0); -- Haunch of Meat
+INSERT INTO `creature_equip_template` VALUES (@Entry, 1, 2196, 0, 0); -- Haunch of Meat
 
 -- NPC TEXT
 DELETE FROM `npc_text` WHERE `ID`=@Entry;
