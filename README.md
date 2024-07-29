@@ -1,4 +1,4 @@
-# BeastMaster NPC
+# BeastMaster NPC<br>(Discontinued as of 2024-07-29)
 
 
 ## Description
